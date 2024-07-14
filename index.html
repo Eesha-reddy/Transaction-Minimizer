@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Flow Minimizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Transaction Minimizer</h1>
+        <form id="transactionForm">
+            <input type="text" id="payer" placeholder="Payer" required>
+            <input type="text" id="payee" placeholder="Payee" required>
+            <input type="number" id="amount" placeholder="Amount" required>
+            <button type="submit">Add Transaction</button>
+        </form>
+        <h2>Transactions</h2>
+        <ul id="transactionList"></ul>
+        <button id="optimizeBtn">Optimize Transactions</button>
+        <h2>Optimized Transactions</h2>
+        <ul id="optimizedList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
